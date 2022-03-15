@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('foo', function () {
+    return 'Hello World';
+});
+
 Route::get('/', function () {
     return view('guest.home');
 });
